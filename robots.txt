@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://zaha2020.github.io/sitemap.xml
