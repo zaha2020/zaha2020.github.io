@@ -5,12 +5,22 @@
     <link>https://zaha2020.github.io/tag/past/</link>
       <atom:link href="https://zaha2020.github.io/tag/past/index.xml" rel="self" type="application/rss+xml" />
     <description>Past</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zaha2020.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Past</title>
       <link>https://zaha2020.github.io/tag/past/</link>
     </image>
+    
+    <item>
+      <title>An analysis of Telegram channels related to the dollar and its price</title>
+      <link>https://zaha2020.github.io/project/social_networks/</link>
+      <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/social_networks/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, various analyzes such as graph topology, distribution of the number of content, number of visits to channels were performed using the NetworkX library. as well as the top 10 nodes of various criteria such as betweenness, efficiency, page rank, etc., using Gephi software and tools was found and finally the cause of superiority was investigated.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Detecting Parkinson disease using signals of speech data with ensemble learning</title>
