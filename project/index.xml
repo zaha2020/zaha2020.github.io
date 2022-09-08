@@ -5,12 +5,22 @@
     <link>https://zaha2020.github.io/project/</link>
       <atom:link href="https://zaha2020.github.io/project/index.xml" rel="self" type="application/rss+xml" />
     <description>Projects</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 24 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 22 Jan 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://zaha2020.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Projects</title>
       <link>https://zaha2020.github.io/project/</link>
     </image>
+    
+    <item>
+      <title>The effect of the combination of economic and social analysis on the prediction of stock price fluctuations</title>
+      <link>https://zaha2020.github.io/project/stock_prediction/</link>
+      <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/stock_prediction/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In the first phase, a general study was conducted on technical analysis, types of candles and types of indicators, etc., in various sources, including the introduced Telegram address. In the second phase, social data was received from the hashtag site in the form of two Excel files and Hashtag site for each 10 symbols, which Hashtag file was used for graphic analysis of Telegram channels for 10 symbols, which can be seen in the second phase of the project. Next, in the third phase, economic and financial data were downloaded by Docker from tsetms Pages, then after several stages of coding for editing, the important columns of this data, along with the obtained indicators, were received for all 10 symbols and are transferred to the fourth phase. in the last phase and the fourth phase, we will have two types of predictions using recurrent neural networks, in the first prediction, we predict the stock market price from the tables of the third phase, and in the second prediction, from the combination of the indicators of the tables of the second phase and Third, we use it to predict the price. In fact, we enter social data into the prediction.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>An analysis of Telegram channels related to the dollar and its price</title>
