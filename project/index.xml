@@ -87,6 +87,18 @@ machine learning techniques&amp;rdquo;&lt;/p&gt;
     </item>
     
     <item>
+      <title>Investigating the main reason for sales decline in a wood industry factory</title>
+      <link>https://zaha2020.github.io/project/discriminative_project/</link>
+      <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/discriminative_project/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In order to find the main reason for the decrease in sales, first the 10-year sales of the factory were checked to determine the rate of decrease in sales, then information was collected randomly from 105 customers in the form of a survey. Next, important features were extracted from the survey sheets and the final table was made.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;In the following, the level of satisfaction of the customers from different departments of the factory, which was asked in the survey, was checked in order to check which department the customers have the least level of satisfaction with.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>A real time BigData system for analysis of online Persian Twitter data</title>
       <link>https://zaha2020.github.io/project/realtime_system/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
