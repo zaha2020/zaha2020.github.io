@@ -135,14 +135,29 @@
     </item>
     
     <item>
+      <title>Development of L-System Grammer</title>
+      <link>https://zaha2020.github.io/project/development_l-system_grammer/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/development_l-system_grammer/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, we implemented L_System in two parts. In the first part, we added the color feature to this system by implementing the code, and in the next part, we explained the rules of growth in 3D and color in Houdini software.&lt;/p&gt;
+&lt;p&gt;The following book was used for further study with the following title by Przemyslaw Prusinkiewicz and Aristid Lindenmayer:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The Algorithmic Beauty of Plants&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;By generating different rules and including color in the rules, we drew plant species (trees) in different states because the generation is set randomly. In general, we showed in two random modes and in the third generation and the fourth generation to understand the difference in the number of repetitions in pattern generation in this system.&lt;/p&gt;
+&lt;p&gt;By using the definition of different rules in the Houdini software, we put all the species together to have a forest of seven types of species.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Optimization inspired by nature</title>
       <link>https://zaha2020.github.io/project/optimization_inspired_by_nature/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
       <guid>https://zaha2020.github.io/project/optimization_inspired_by_nature/</guid>
       <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
 &lt;p&gt;In this project, we  solved some standard and common optimization problems that are used to compare optimization algorithms using the algorithms of Artificial Bee Colony, Firefly and Particle Swarm Optimization and compared their efficiency.&lt;/p&gt;
-&lt;p&gt;The optimization problems used in this project is related to an article with the following title by Simon Vandevelde and Joost Vennekens:&lt;/p&gt;
-&lt;p&gt;&amp;ldquo;ProbLife: a Probabilistic Game of Life&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;The optimization problems used in this project is related to an article with the following title by Xin-She Yang:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Test Problems in Optimization&amp;rdquo;&lt;/p&gt;
 &lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
 &lt;p&gt;In terms of optimality, we compare each function in 3 algorithms with *f found in the article
 According to the results of the tables for each test function in the 3 algorithms, we can see that in all the functions, the optimization has occurred in the 3 algorithms, but in general, the Artificial Bee Colony algorithm has worked more accurately and was able to be closer to the optimal point in get the article&lt;/p&gt;
