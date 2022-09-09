@@ -160,7 +160,7 @@
 &lt;p&gt;&amp;ldquo;Test Problems in Optimization&amp;rdquo;&lt;/p&gt;
 &lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
 &lt;p&gt;In terms of optimality, we compare each function in 3 algorithms with *f found in the article
-According to the results of the tables for each test function in the 3 algorithms, we can see that in all the functions, the optimization has occurred in the 3 algorithms, but in general, the Artificial Bee Colony algorithm has worked more accurately and was able to be closer to the optimal point in get the article&lt;/p&gt;
+According to the results of the tables for each test function in the 3 algorithms, we can see that in all the functions, the optimization has occurred in the 3 algorithms, but in general, the Artificial Bee Colony algorithm has worked more accurately and was able to be closer to the optimal point in get the article.&lt;/p&gt;
 &lt;p&gt;One of the characteristics of these 3 algorithms is the high convergence speed, but if we draw the following graphs for each function, we can see that in all the test functions, the Artificial Bee Colony algorithm is faster than the other two algorithms for this category of optimization problems. Convergence has been reached, which means that the speed of convergence in this algorithm is high, and the two algorithms of Particle Swarm and Firefly are sometimes trapped in the local optimum.&lt;/p&gt;
 &lt;p&gt;The Firefly algorithm has solved all the test functions with the shortest possible time compared to the other 2 algorithms, and the Artificial Bee Colony algorithm has the longest execution time with about 1 minute and 9 seconds.&lt;/p&gt;
 </description>
@@ -172,7 +172,9 @@ According to the results of the tables for each test function in the 3 algorithm
       <pubDate>Sat, 22 Jan 2022 00:00:00 +0000</pubDate>
       <guid>https://zaha2020.github.io/project/stock_prediction/</guid>
       <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
-&lt;p&gt;In the first phase, a general study was conducted on technical analysis, types of candles and types of indicators, etc., in various sources, including the introduced Telegram address. In the second phase, social data was received from the hashtag site in the form of two Excel files and Hashtag site for each 10 symbols, which Hashtag file was used for graphic analysis of Telegram channels for 10 symbols, which can be seen in the second phase of the project. Next, in the third phase, economic and financial data were downloaded by Docker from tsetms Pages, then after several stages of coding for editing, the important columns of this data, along with the obtained indicators, were received for all 10 symbols and are transferred to the fourth phase. in the last phase and the fourth phase, we will have two types of predictions using recurrent neural networks, in the first prediction, we predict the stock market price from the tables of the third phase, and in the second prediction, from the combination of the indicators of the tables of the second phase and Third, we use it to predict the price. In fact, we enter social data into the prediction.&lt;/p&gt;
+&lt;p&gt;In the first phase, a general study was conducted on technical analysis, types of candles and types of indicators, etc., in various sources, including the introduced Telegram address. In the second phase, social data was received from the hashtag site in the form of two Excel files and a Hashtag site for every 10 symbols, which Hashtag file was used for the graphic analysis of Telegram channels for 10 symbols, which can be seen in the second phase of the project. Next, in the third phase, economic and financial data were downloaded by Docker from &lt;a href=&#34;https://www.tsetmc.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;tsetms Pages&lt;/a&gt;, then after several stages of coding for editing, the important columns of this data, along with the obtained indicators, were received for all 10 symbols and are transferred to the fourth phase.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result:&lt;/h2&gt;
+&lt;p&gt;In the last phase and the fourth phase, we will have two types of predictions using recurrent neural networks, in the first prediction, we predict the stock market price from the tables of the third phase, and in the second prediction, from the combination of the indicators of the tables of the second phase and Third, we use it to predict the price. In fact, we enter social data into the prediction.&lt;/p&gt;
 </description>
     </item>
     
@@ -182,7 +184,7 @@ According to the results of the tables for each test function in the 3 algorithm
       <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://zaha2020.github.io/project/social_networks/</guid>
       <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
-&lt;p&gt;In this project, various analyzes such as graph topology, distribution of the number of content, number of visits to channels were performed using the NetworkX library. as well as the top 10 nodes of various criteria such as betweenness, efficiency, page rank, etc., using Gephi software and tools was found and finally the cause of superiority was investigated.&lt;/p&gt;
+&lt;p&gt;In this project, various analyzes such as graph topology, distribution of the number of content, and a number of visits to channels were performed using the NetworkX library. as well as the top 10 nodes of various criteria such as betweenness, efficiency, page rank, etc., using Gephi software and tools was found and finally, the cause of superiority was investigated.&lt;/p&gt;
 </description>
     </item>
     
@@ -324,7 +326,7 @@ machine learning techniques&amp;rdquo;&lt;/p&gt;
       <pubDate>Mon, 23 Nov 2020 00:00:00 +0000</pubDate>
       <guid>https://zaha2020.github.io/project/discriminative_project/</guid>
       <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
-&lt;p&gt;In order to find the main reason for the decrease in sales, first the 10-year sales of the factory were checked to determine the rate of decrease in sales, then information was collected randomly from 105 customers in the form of a survey. Next, important features were extracted from the survey sheets and the final table was made.&lt;/p&gt;
+&lt;p&gt;In order to find the main reason for the decrease in sales, first, the 10-year sales of the factory were checked to determine the rate of decrease in sales, then the information was collected randomly from 105 customers in the form of a survey. Next, important features were extracted from the survey sheets and the final table was made.&lt;/p&gt;
 &lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
 &lt;p&gt;In the following, the level of satisfaction of the customers from different departments of the factory, which was asked in the survey, was checked in order to check which department the customers have the least level of satisfaction with.&lt;/p&gt;
 </description>
