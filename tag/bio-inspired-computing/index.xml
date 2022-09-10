@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bio-Inspired Computing | Zahra Habibzadeh</title>
+    <link>https://zaha2020.github.io/tag/bio-inspired-computing/</link>
+      <atom:link href="https://zaha2020.github.io/tag/bio-inspired-computing/index.xml" rel="self" type="application/rss+xml" />
+    <description>Bio-Inspired Computing</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 06 Jul 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zaha2020.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Bio-Inspired Computing</title>
+      <link>https://zaha2020.github.io/tag/bio-inspired-computing/</link>
+    </image>
+    
+    <item>
+      <title>Development of L-System Grammer</title>
+      <link>https://zaha2020.github.io/project/development_l-system_grammer/</link>
+      <pubDate>Wed, 06 Jul 2022 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/development_l-system_grammer/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, we implemented L_System in two parts. In the first part, we added the color feature to this system by implementing the code, and in the next part, we explained the rules of growth in 3D and color in Houdini software.&lt;/p&gt;
+&lt;p&gt;The following book was used for further study with the following title by Przemyslaw Prusinkiewicz and Aristid Lindenmayer:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;The Algorithmic Beauty of Plants&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;By generating different rules and including color in the rules, we drew plant species (trees) in different states because the generation is set randomly. In general, we showed in two random modes and in the third generation and the fourth generation to understand the difference in the number of repetitions in pattern generation in this system.&lt;/p&gt;
+&lt;p&gt;By using the definition of different rules in the Houdini software, we put all the species together to have a forest of seven types of species.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Bio-Inspired Optimization methods</title>
+      <link>https://zaha2020.github.io/project/optimization_inspired_by_nature/</link>
+      <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/optimization_inspired_by_nature/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, we  solved some standard and common optimization problems that are used to compare optimization algorithms using the algorithms of Artificial Bee Colony, Firefly and Particle Swarm Optimization and compared their efficiency.&lt;/p&gt;
+&lt;p&gt;The optimization problems used in this project is related to an article with the following title by Xin-She Yang:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Test Problems in Optimization&amp;rdquo;&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result&lt;/h2&gt;
+&lt;p&gt;In terms of optimality, we compare each function in 3 algorithms with *f found in the article
+According to the results of the tables for each test function in the 3 algorithms, we can see that in all the functions, the optimization has occurred in the 3 algorithms, but in general, the Artificial Bee Colony algorithm has worked more accurately and was able to be closer to the optimal point in get the article.&lt;/p&gt;
+&lt;p&gt;One of the characteristics of these 3 algorithms is the high convergence speed, but if we draw the following graphs for each function, we can see that in all the test functions, the Artificial Bee Colony algorithm is faster than the other two algorithms for this category of optimization problems. Convergence has been reached, which means that the speed of convergence in this algorithm is high, and the two algorithms of Particle Swarm and Firefly are sometimes trapped in the local optimum.&lt;/p&gt;
+&lt;p&gt;The Firefly algorithm has solved all the test functions with the shortest possible time compared to the other 2 algorithms, and the Artificial Bee Colony algorithm has the longest execution time with about 1 minute and 9 seconds.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

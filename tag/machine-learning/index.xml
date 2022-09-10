@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Zahra Habibzadeh</title>
+    <link>https://zaha2020.github.io/tag/machine-learning/</link>
+      <atom:link href="https://zaha2020.github.io/tag/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sat, 27 Feb 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zaha2020.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Machine Learning</title>
+      <link>https://zaha2020.github.io/tag/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Detecting Parkinson disease using signals of speech data with ensemble learning</title>
+      <link>https://zaha2020.github.io/project/parkinson/</link>
+      <pubDate>Sat, 27 Feb 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/parkinson/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;This Project is a group work with &lt;a href=&#34;https://github.com/amirhosein-mesbah&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Amirhossein Mesbah&lt;/a&gt;. in this project we used signals of speech data for a binary classification task to check if the person to whom the sound belongs has Parkinson&amp;rsquo;s disease or not.&lt;/p&gt;
+&lt;p&gt;The data used in this project is related to an article with the following title by Jefferson S.Almeida et al:&lt;/p&gt;
+&lt;p&gt;&amp;ldquo;Detecting Parkinson’s disease with sustained phonation and speech signals using
+machine learning techniques&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;We implemented the methods used in this paper for data preprocessing, dimensionality reduction and model training. Also, in addition to these cases, we also used ensemble models for training and better performance.&lt;/p&gt;
+&lt;h2 id=&#34;result&#34;&gt;Result:&lt;/h2&gt;
+&lt;p&gt;The best performance was related to the ensemble model using KNN algorithm, whose accuracy was equal to 96,10%. The results of the rest of the models are available in the table below.&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Algorithms&lt;/th&gt;
+&lt;th&gt;Accuracy%&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Logistic regression&lt;/td&gt;
+&lt;td&gt;87,23&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;SVM&lt;/td&gt;
+&lt;td&gt;93,97&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Decision Tree&lt;/td&gt;
+&lt;td&gt;84,04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;KNN(K=1)&lt;/td&gt;
+&lt;td&gt;94,33&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;MLP&lt;/td&gt;
+&lt;td&gt;91,84&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;RBF&lt;/td&gt;
+&lt;td&gt;93,26&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Ensemble&lt;/td&gt;
+&lt;td&gt;96,10&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>BigData | Zahra Habibzadeh</title>
+    <link>https://zaha2020.github.io/tag/bigdata/</link>
+      <atom:link href="https://zaha2020.github.io/tag/bigdata/index.xml" rel="self" type="application/rss+xml" />
+    <description>BigData</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 01 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zaha2020.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>BigData</title>
+      <link>https://zaha2020.github.io/tag/bigdata/</link>
+    </image>
+    
+    <item>
+      <title>A real time BigData system for analysis of online Persian Twitter data</title>
+      <link>https://zaha2020.github.io/project/realtime_system/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/realtime_system/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;This Project is a group work with &lt;a href=&#34;https://github.com/arminayat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Armin Ayatollahi&lt;/a&gt;, &lt;a href=&#34;https://github.com/yaramohamadi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yara M. Bahram
+&lt;/a&gt;, &lt;a href=&#34;https://github.com/mohammad-nili&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mohammad-nili&lt;/a&gt;. in this project we used online Persian Twitter data for Designing a real-time system.
+For analyzing the content of Persian tweets, we developed a complete data processing line, starting with collecting data and sending it to Elastic Search, processing and storing hashtag/channel history in Cassandra, saving real-time statistics in Redis, and statistical analysis of data to The help of Superset/Clickhouse was formed and the centrality of data transfer was with Kafka.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Apache Spark for NLP, Log mining, Stock and Graph tasks</title>
+      <link>https://zaha2020.github.io/project/spark/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/spark/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, we&amp;rsquo;ve used Apache Spark for NLP, Log mining, and Stock and Graph tasks.&lt;/p&gt;
+&lt;h2 id=&#34;spark-for-nlp&#34;&gt;Spark for NLP&lt;/h2&gt;
+&lt;p&gt;For this task, we first counted and displayed the number of words in the txt.Input file. We also reported how often each word was repeated and saved the output to a .txt file. In this step, all punctuation marks (exclamation marks, question marks, periods, etc.) were removed. Finally, we created the &lt;code&gt;bigram&lt;/code&gt; of the prepared data frame and compute the count of each bigram.&lt;/p&gt;
+&lt;h2 id=&#34;logfile-mining-with-spark&#34;&gt;LogFile Mining with Spark&lt;/h2&gt;
+&lt;p&gt;The log file of this exercise is called Log, which is related to HTTP requests. This file was explored using the basic commands of Spark, SQL Spark, or Dataframes Spark.&lt;/p&gt;
+&lt;h2 id=&#34;stock-market-analysis-using-spark&#34;&gt;Stock Market Analysis using Spark&lt;/h2&gt;
+&lt;p&gt;In this task, the 6-month stock market data of the Iran Stock Exchange was used. We downloaded daily stock market data for a two-month period that can have at least thirty distinct days. First, with the help of Spark, we opened the files and added the day, month, and year columns to them. (a date column).
+In this task, the questions were answered with Spark and with two different approaches (Dataframe Spark / SQL Spark).&lt;/p&gt;
+&lt;h2 id=&#34;spark-graphx&#34;&gt;Spark GraphX&lt;/h2&gt;
+&lt;p&gt;The graphs in question are extracted from &lt;a href=&#34;https://www.wikipedia.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia&lt;/a&gt; articles in this task. Each node is a Wikipedia article and an edge from article A to article B indicates that article A referred to article B.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

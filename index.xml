@@ -150,7 +150,7 @@
     </item>
     
     <item>
-      <title>Optimization inspired by nature</title>
+      <title>Bio-Inspired Optimization methods</title>
       <link>https://zaha2020.github.io/project/optimization_inspired_by_nature/</link>
       <pubDate>Thu, 05 May 2022 00:00:00 +0000</pubDate>
       <guid>https://zaha2020.github.io/project/optimization_inspired_by_nature/</guid>
@@ -179,12 +179,160 @@ According to the results of the tables for each test function in the 3 algorithm
     </item>
     
     <item>
+      <title>Deep Reinforcement Learning for Cartpole Environment</title>
+      <link>https://zaha2020.github.io/project/deep_rl/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/deep_rl/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription&lt;/h2&gt;
+&lt;p&gt;In this project, we implement a policy gradient method using deep neural networks to train our agent in &lt;code&gt;cartpole&lt;/code&gt; environment from the gym. For this implementation, we&amp;rsquo;ve used the Tensorflow framework.&lt;/p&gt;
+&lt;h2 id=&#34;environment&#34;&gt;Environment&lt;/h2&gt;
+&lt;p&gt;In &lt;code&gt;cartpole&lt;/code&gt; Environment, our agent just has two actions to do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;+1: push cart to the right&lt;/li&gt;
+&lt;li&gt;0: push cart to the left
+our goal is to keep the balance of this cart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;training&#34;&gt;Training&lt;/h2&gt;
+&lt;p&gt;We train our agent for 1000 episodes&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating music using LSTMs</title>
+      <link>https://zaha2020.github.io/project/music_generation/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/music_generation/</guid>
+      <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve used &lt;code&gt;MIDI Music Class&lt;/code&gt; for generating music using LSTMs. from various artists, we&amp;rsquo;ve chosen melodies from Chopin Frédéric and Mozart.
+several preprocessing steps have been done on the data before training:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Removing rare notes&lt;/li&gt;
+&lt;li&gt;Creating a corpus of notes&lt;/li&gt;
+&lt;li&gt;Generating sequences&lt;/li&gt;
+&lt;li&gt;Considering the note after the end of the sequence as a label&lt;/li&gt;
+&lt;li&gt;One-hot encoding for labels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;train&#34;&gt;Train&lt;/h2&gt;
+&lt;p&gt;After doing preprocessing steps, We&amp;rsquo;ve used LSTMs to generate Music. For this purpose, we generate notes and after that, we convert these generated notes to music with the help of the &lt;code&gt;music21&lt;/code&gt; python library.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>An analysis of Telegram channels related to the dollar and its price</title>
       <link>https://zaha2020.github.io/project/social_networks/</link>
       <pubDate>Wed, 24 Nov 2021 00:00:00 +0000</pubDate>
       <guid>https://zaha2020.github.io/project/social_networks/</guid>
       <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
 &lt;p&gt;In this project, various analyzes such as graph topology, distribution of the number of content, and a number of visits to channels were performed using the NetworkX library. as well as the top 10 nodes of various criteria such as betweenness, efficiency, page rank, etc., using Gephi software and tools was found and finally, the cause of superiority was investigated.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Classifying images using Convolutional Neural Networks</title>
+      <link>https://zaha2020.github.io/project/cnn/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/cnn/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, We investigate several configurations of CNNs to classify input images.&lt;/p&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;For this task, we&amp;rsquo;ve used &lt;a href=&#34;https://github.com/zalandoresearch/fashion-mnist&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Fashion MNSIT&lt;/code&gt;&lt;/a&gt; which contains 10 classes of data for a classification task.&lt;/p&gt;
+&lt;h2 id=&#34;training&#34;&gt;Training&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve trained Network with several Configurations to find the best setting for our task. We have checked for these settings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MLP with a different number of hidden layers&lt;/li&gt;
+&lt;li&gt;MLP with different Activation functions&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Networks&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Networks with DropOut&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Networks with DropOut and Batch normalization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Accuracy for different settings mentioned above are in  the below table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Model&lt;/th&gt;
+&lt;th&gt;Accuracy%&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected&lt;/td&gt;
+&lt;td&gt;90,63&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected + Pooling + Batch normalization&lt;/td&gt;
+&lt;td&gt;90,17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected + Pooling + CNN_Dropout(0.3,0.3,0.5)&lt;/td&gt;
+&lt;td&gt;90,56&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected + Pooling + CNN_Dropout(0.2,0.2,0.2)&lt;/td&gt;
+&lt;td&gt;90,89&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected + Pooling + Batchnormalization + CNN_Dropout(0.2,0.2,0.2)&lt;/td&gt;
+&lt;td&gt;91,04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A real time BigData system for analysis of online Persian Twitter data</title>
+      <link>https://zaha2020.github.io/project/realtime_system/</link>
+      <pubDate>Thu, 01 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/realtime_system/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;This Project is a group work with &lt;a href=&#34;https://github.com/arminayat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Armin Ayatollahi&lt;/a&gt;, &lt;a href=&#34;https://github.com/yaramohamadi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yara M. Bahram
+&lt;/a&gt;, &lt;a href=&#34;https://github.com/mohammad-nili&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mohammad-nili&lt;/a&gt;. in this project we used online Persian Twitter data for Designing a real-time system.
+For analyzing the content of Persian tweets, we developed a complete data processing line, starting with collecting data and sending it to Elastic Search, processing and storing hashtag/channel history in Cassandra, saving real-time statistics in Redis, and statistical analysis of data to The help of Superset/Clickhouse was formed and the centrality of data transfer was with Kafka.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Analyzing a real dataset with R programming language</title>
+      <link>https://zaha2020.github.io/project/statistical_inference/</link>
+      <pubDate>Thu, 10 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/statistical_inference/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, we intended to study and analyze a series of the real dataset. To begin analyzing a dataset, the first step was to get familiar with it. In the first step, this acquaintance can be made by observing the features of the dataset and distribution of the values and visualizing the data to make initial guesses about it. In the next step, by performing statistical tests, we made sure our guesses are correct and made our claims with certainty.&lt;/p&gt;
+&lt;h2 id=&#34;datasets-description&#34;&gt;Datasets Description:&lt;/h2&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Dataset name&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Students_Performance&lt;/td&gt;
+&lt;td&gt;This dataset includes information about a sample of students studying in two different institutes as well as their grades in three different exams.&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using Apache Spark for NLP, Log mining, Stock and Graph tasks</title>
+      <link>https://zaha2020.github.io/project/spark/</link>
+      <pubDate>Sat, 22 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/spark/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, we&amp;rsquo;ve used Apache Spark for NLP, Log mining, and Stock and Graph tasks.&lt;/p&gt;
+&lt;h2 id=&#34;spark-for-nlp&#34;&gt;Spark for NLP&lt;/h2&gt;
+&lt;p&gt;For this task, we first counted and displayed the number of words in the txt.Input file. We also reported how often each word was repeated and saved the output to a .txt file. In this step, all punctuation marks (exclamation marks, question marks, periods, etc.) were removed. Finally, we created the &lt;code&gt;bigram&lt;/code&gt; of the prepared data frame and compute the count of each bigram.&lt;/p&gt;
+&lt;h2 id=&#34;logfile-mining-with-spark&#34;&gt;LogFile Mining with Spark&lt;/h2&gt;
+&lt;p&gt;The log file of this exercise is called Log, which is related to HTTP requests. This file was explored using the basic commands of Spark, SQL Spark, or Dataframes Spark.&lt;/p&gt;
+&lt;h2 id=&#34;stock-market-analysis-using-spark&#34;&gt;Stock Market Analysis using Spark&lt;/h2&gt;
+&lt;p&gt;In this task, the 6-month stock market data of the Iran Stock Exchange was used. We downloaded daily stock market data for a two-month period that can have at least thirty distinct days. First, with the help of Spark, we opened the files and added the day, month, and year columns to them. (a date column).
+In this task, the questions were answered with Spark and with two different approaches (Dataframe Spark / SQL Spark).&lt;/p&gt;
+&lt;h2 id=&#34;spark-graphx&#34;&gt;Spark GraphX&lt;/h2&gt;
+&lt;p&gt;The graphs in question are extracted from &lt;a href=&#34;https://www.wikipedia.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Wikipedia&lt;/a&gt; articles in this task. Each node is a Wikipedia article and an edge from article A to article B indicates that article A referred to article B.&lt;/p&gt;
 </description>
     </item>
     
@@ -482,18 +630,6 @@ $$&lt;/p&gt;
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <guid>https://zaha2020.github.io/admin/config.yml</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>A real time BigData system for analysis of online Persian Twitter data</title>
-      <link>https://zaha2020.github.io/project/realtime_system/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://zaha2020.github.io/project/realtime_system/</guid>
-      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
-&lt;p&gt;This Project is a group work with &lt;a href=&#34;https://github.com/arminayat&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Armin Ayatollahi&lt;/a&gt;, &lt;a href=&#34;https://github.com/yaramohamadi&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Yara M. Bahram
-&lt;/a&gt;, &lt;a href=&#34;https://github.com/mohammad-nili&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mohammad-nili&lt;/a&gt;. in this project we used online Persian Twitter data for Designing a real-time system.
-For analyzing the content of Persian tweets, we developed a complete data processing line, starting with collecting data and sending it to Elastic Search, processing and storing hashtag/channel history in Cassandra, saving real-time statistics in Redis, and statistical analysis of data to The help of Superset/Clickhouse was formed and the centrality of data transfer was with Kafka.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

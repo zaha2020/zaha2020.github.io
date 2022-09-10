@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning | Zahra Habibzadeh</title>
+    <link>https://zaha2020.github.io/tag/deep-learning/</link>
+      <atom:link href="https://zaha2020.github.io/tag/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 05 Jan 2022 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://zaha2020.github.io/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Deep Learning</title>
+      <link>https://zaha2020.github.io/tag/deep-learning/</link>
+    </image>
+    
+    <item>
+      <title>Deep Reinforcement Learning for Cartpole Environment</title>
+      <link>https://zaha2020.github.io/project/deep_rl/</link>
+      <pubDate>Wed, 05 Jan 2022 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/deep_rl/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription&lt;/h2&gt;
+&lt;p&gt;In this project, we implement a policy gradient method using deep neural networks to train our agent in &lt;code&gt;cartpole&lt;/code&gt; environment from the gym. For this implementation, we&amp;rsquo;ve used the Tensorflow framework.&lt;/p&gt;
+&lt;h2 id=&#34;environment&#34;&gt;Environment&lt;/h2&gt;
+&lt;p&gt;In &lt;code&gt;cartpole&lt;/code&gt; Environment, our agent just has two actions to do:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;+1: push cart to the right&lt;/li&gt;
+&lt;li&gt;0: push cart to the left
+our goal is to keep the balance of this cart.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;training&#34;&gt;Training&lt;/h2&gt;
+&lt;p&gt;We train our agent for 1000 episodes&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generating music using LSTMs</title>
+      <link>https://zaha2020.github.io/project/music_generation/</link>
+      <pubDate>Thu, 30 Dec 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/music_generation/</guid>
+      <description>&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve used &lt;code&gt;MIDI Music Class&lt;/code&gt; for generating music using LSTMs. from various artists, we&amp;rsquo;ve chosen melodies from Chopin Frédéric and Mozart.
+several preprocessing steps have been done on the data before training:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Removing rare notes&lt;/li&gt;
+&lt;li&gt;Creating a corpus of notes&lt;/li&gt;
+&lt;li&gt;Generating sequences&lt;/li&gt;
+&lt;li&gt;Considering the note after the end of the sequence as a label&lt;/li&gt;
+&lt;li&gt;One-hot encoding for labels&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;train&#34;&gt;Train&lt;/h2&gt;
+&lt;p&gt;After doing preprocessing steps, We&amp;rsquo;ve used LSTMs to generate Music. For this purpose, we generate notes and after that, we convert these generated notes to music with the help of the &lt;code&gt;music21&lt;/code&gt; python library.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Classifying images using Convolutional Neural Networks</title>
+      <link>https://zaha2020.github.io/project/cnn/</link>
+      <pubDate>Sat, 06 Nov 2021 00:00:00 +0000</pubDate>
+      <guid>https://zaha2020.github.io/project/cnn/</guid>
+      <description>&lt;h2 id=&#34;decription&#34;&gt;Decription:&lt;/h2&gt;
+&lt;p&gt;In this project, We investigate several configurations of CNNs to classify input images.&lt;/p&gt;
+&lt;h2 id=&#34;dataset&#34;&gt;Dataset&lt;/h2&gt;
+&lt;p&gt;For this task, we&amp;rsquo;ve used &lt;a href=&#34;https://github.com/zalandoresearch/fashion-mnist&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;Fashion MNSIT&lt;/code&gt;&lt;/a&gt; which contains 10 classes of data for a classification task.&lt;/p&gt;
+&lt;h2 id=&#34;training&#34;&gt;Training&lt;/h2&gt;
+&lt;p&gt;We&amp;rsquo;ve trained Network with several Configurations to find the best setting for our task. We have checked for these settings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;MLP with a different number of hidden layers&lt;/li&gt;
+&lt;li&gt;MLP with different Activation functions&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Networks&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Networks with DropOut&lt;/li&gt;
+&lt;li&gt;Convolutional Neural Networks with DropOut and Batch normalization&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
+&lt;p&gt;Accuracy for different settings mentioned above are in  the below table:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Model&lt;/th&gt;
+&lt;th&gt;Accuracy%&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected&lt;/td&gt;
+&lt;td&gt;90,63&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected + Pooling + Batch normalization&lt;/td&gt;
+&lt;td&gt;90,17&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected + Pooling + CNN_Dropout(0.3,0.3,0.5)&lt;/td&gt;
+&lt;td&gt;90,56&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected + Pooling + CNN_Dropout(0.2,0.2,0.2)&lt;/td&gt;
+&lt;td&gt;90,89&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;CNN + fully connected + Pooling + Batchnormalization + CNN_Dropout(0.2,0.2,0.2)&lt;/td&gt;
+&lt;td&gt;91,04&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
